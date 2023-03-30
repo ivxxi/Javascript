@@ -1,7 +1,6 @@
 # Javascript
 
-This are javascript projects by the clever programmer
-
+Projects while learning Javascript
 
 ### License
 [MIT](https://choosealicense.com/licenses/mit/)
