@@ -24,8 +24,23 @@ const perPersonTotalDiv  = document.getElementById('perPersonTotal')
  }
 
  //split bill between more people
- const increasePeople = () => {}
+ const increasePeople = () => {
+   numberOfPeople += 1
+
+   numberOfPeopleDiv.innerText = numberOfPeople
+
+   calculateBill()
+ }
 
  //split bill between less people
- const decreasePeople = () => {} 
- //guard clause: can't go below 1
+ const decreasePeople = () => {
+    //guard clause: can't go below 1
+    if (numberOfPeople <= 1){
+      return
+    }
+   numberOfPeople -= 1
+   
+   numberOfPeopleDiv.innerText = numberOfPeople
+
+   calculateBill()
+ } 

@@ -46,5 +46,9 @@ button:hover{
     border: solid 2px lightseagreen;
 }
 #result{
-    height: 60px;
+    height: 30px;
+    padding-top: 30px;
+    font-size: larger;
+    color: red;
+    font-weight: bold;
 }
