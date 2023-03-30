@@ -16,6 +16,6 @@ const calculateBmi = () => {
         result.innerText = "Please provide a valid weight";
     } else {
     const bmi = weightKg / (heightCm * heightCm * 0.0001)
-    result.innerText = `${bmi}`
+    result.innerText = `${bmi.toFixed(2)}`
     }
 }
