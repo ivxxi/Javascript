@@ -12,13 +12,14 @@
             <h1>My Todo List</h1>
 
             <div id="enterTask">
-                <input type="text" placeholder="Enter task">
+                <input id="task" type="text" placeholder="Enter task">
                 <button onclick="addTask()">Add</button>
             </div>
             <div class="TaskList">
                 <ul>
-                    <li>Task One
+                    <li>Task One 
                     </li>
+                    
                     <li>Task Two
                     </li>
                 </ul>
@@ -28,10 +29,24 @@
         </div>
     </main>
 
-    <style>
+    <script>
         
-    </style>
+        const task = document.querySelector('#task')
 
+        
+       const addTask = () => {
+       
+            const ul = document.querySelector('ul')
+            const li = document.createElement('li')
+
+            ul.append(li)
+            li.innerText = `${task.value}`
+       }
+
+
+
+    
+    </script>
     
     
     
