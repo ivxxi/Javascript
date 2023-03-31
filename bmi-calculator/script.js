@@ -18,4 +18,5 @@ const calculateBmi = () => {
     const bmi = weightKg / (heightCm * heightCm * 0.0001)
     result.innerText = `${bmi.toFixed(1)}`
     }
+
 }
