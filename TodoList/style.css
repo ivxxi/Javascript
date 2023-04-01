@@ -36,7 +36,8 @@ button{
 }
 
 ul{
-    list-style-type: none;
+    list-style-type: Number;
+    
 }
 li{
     padding: 0.5rem;
