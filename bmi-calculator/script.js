@@ -1,4 +1,4 @@
-
+//variables
 const height = document.getElementById('height')
 const weight = document.getElementById('weight')
 const result = document.getElementById('result')
