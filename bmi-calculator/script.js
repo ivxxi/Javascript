@@ -19,9 +19,8 @@ const calculateBmi = () => {
     result.innerText = `${bmi.toFixed(1)}`
     }
 
-    if (bmi < 15){
-        details.innerText ='you are underweight'
-
-    }
-
+    
 }
+//convert bmi guide to js 
+//if bmi = underweight
+//output shows underweight
